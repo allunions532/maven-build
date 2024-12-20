@@ -39,10 +39,10 @@
   <!-- Build Configuration -->
   <build>
     <finalName>JJtechBatchApp</finalName>
-    <pluginManagement>
+    <pluginManagement>           <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-        <plugin>
-          <artifactId>maven-clean-plugin</artifactId>
+        <plugin>          <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+          <artifactId>maven-clean-plugin</artifactId>     <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
           <version>3.4.0</version>
         </plugin>
         <plugin>
@@ -66,7 +66,7 @@
           <version>3.1.2</version>
         </plugin>
         <plugin>
-          <artifactId>maven-deploy-plugin</artifactId>
+          <artifactId>maven-deploy-plugin</artifactId>    <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
           <version>3.1.2</version>
         </plugin>
         <plugin>
