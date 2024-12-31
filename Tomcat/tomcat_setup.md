@@ -4,7 +4,7 @@
 
 ## Prerequisit
 
-### Install Java on an ec2 server. 
+### Install Java on an Ubuntu ec2 server. 
 
         sudo apt update
 
