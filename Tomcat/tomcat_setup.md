@@ -1,6 +1,6 @@
 #
 
-#   Tomcat installation on EC2 instance
+#   Tomcat installation on Ubuntu EC2 instance
 
 ## Prerequisit
 
